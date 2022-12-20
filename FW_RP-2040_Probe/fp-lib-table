@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "KKicadLib")(type "KiCad")(uri "/home/kris/.local/share/kicad/6.0/footprints/KKicadLib.pretty")(options "")(descr ""))
+  (lib (name "Expansion_Card")(type "KiCad")(uri "/home/kris/Documents/6-Projects/Framework_ECs/exp_cards/Electrical/KiCad_templates/Expansion_Card/Expansion_Card.pretty")(options "")(descr ""))
+)
