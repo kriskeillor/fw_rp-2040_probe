@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.5,
-          "width": 1.5
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.1016,
         "silk_text_italic": false,
@@ -44,11 +44,17 @@
         "silk_text_thickness": 0.1016,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
+          "45_degree_only": true,
           "min_clearance": 0.15239999999999998
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -106,7 +112,7 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.15239999999999998,
+        "min_track_width": 0.15,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.5,
         "use_height_for_length_calcs": true
@@ -129,7 +135,7 @@
           "drill": 0.3
         }
       ],
-      "zones_allow_external_fillets": false,
+      "zones_allow_external_fillets": true,
       "zones_use_no_outline": true
     },
     "layer_presets": []
@@ -348,7 +354,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Expansion_Card.kicad_pro",
+    "filename": "FW_RP-2040_Probe.kicad_pro",
     "version": 1
   },
   "net_settings": {
